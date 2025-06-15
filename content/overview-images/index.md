@@ -1,7 +1,7 @@
 +++
 date = 2021-05-19T15:00:00Z
 description = "Images can be embedded directly using markdown `![Ferris](ferris.svg)`, but using a shortcode prevents CLS by explicitly setting the width and height."
-draft = false
+draft = true
 title = "Image Shortcodes"
 
 [extra]
@@ -52,7 +52,7 @@ Optional Classes:
 {{ img(src="ferris-happy.svg" class="ci b1" alt="Ferris is Happy" caption="Ferris" link="https://www.rust-lang.org/") }}
 ```
 
-{{ img(src="ferris-happy.svg" class="ci b1" alt="Ferris is Happy" caption="Ferris" link="https://www.rust-lang.org/") }}
+{{ img(src="ferris-happy.svg" class="ci b1" alt="Ferris is Happy" caption="Ferris" link="<https://www.rust-lang.org/>") }}
 
 ## Usage (relative path ./)
 
@@ -66,7 +66,7 @@ Optional Classes:
 {{ img(src="./img/ferris-gesture.svg" alt="Ferris says Hello" caption="Ferris" link="https://www.rust-lang.org/") }}
 ```
 
-{{ img(src="./img/ferris-gesture.svg" alt="Ferris says Hello" caption="Ferris" link="https://www.rust-lang.org/") }}
+{{ img(src="./img/ferris-gesture.svg" alt="Ferris says Hello" caption="Ferris" link="<https://www.rust-lang.org/>") }}
 
 ## Usage (root path /)
 

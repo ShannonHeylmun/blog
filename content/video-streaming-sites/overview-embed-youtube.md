@@ -1,7 +1,7 @@
 +++
 date = 2021-05-08T15:00:00Z
 description = "Sample article showcasing a custom Zola shortcode for embedding Youtube Videos into your pages."
-draft = false
+draft = false 
 title = "Embed Youtube"
 
 [extra]
@@ -25,7 +25,7 @@ Zola has many shortcodes, and new are easily added, this example shows youtube.
 ### Usage
 
 ```rs
-{{/* youtube(id="32gyFIWecuw") */}}
+{{/* youtube(id="_r2tm5idW2Y") */}}
 ```
 
 - `id` - the video id (mandatory)
@@ -38,7 +38,7 @@ Zola has many shortcodes, and new are easily added, this example shows youtube.
 ### Output
 
 ```html
-{{ youtube(id="32gyFIWecuw") }}
+{{ youtube(id="_r2tm5idW2Y" class="") }}
 ```
 
-{{ youtube(id="32gyFIWecuw") }}
+{{ youtube(id="_r2tm5idW2Y" class="") }}

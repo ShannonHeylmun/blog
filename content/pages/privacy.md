@@ -1,6 +1,6 @@
 +++
 description = "This page outlines the Privacy Policy for this site, and the date at which this policy was put into affect."
-draft = false
+draft = true
 path = "privacy"
 template = "pages.html"
 title = "Privacy Policy"

@@ -1,7 +1,7 @@
 +++
 date = 2022-05-17T15:00:00Z
 description = "Abridge is a fast and lightweight Zola theme using semantic html, abridge.css class-light CSS, and No Mandatory JS."
-draft = false
+draft = true
 title = "Abridge Zola Theme"
 updated = 2023-07-21T15:00:00Z
 
@@ -54,7 +54,7 @@ A fast, lightweight, and modern [Zola](https://getzola.org) theme utilizing [abr
 
 ## Quick Start
 
-This theme requires version {{ showdata(src="https://raw.githubusercontent.com/Jieiku/abridge/master/theme.toml" key="min_version" type="toml") }} or later of [Zola](https://www.getzola.org/documentation/getting-started/installation/)
+This theme requires version {{ showdata(src="<https://raw.githubusercontent.com/Jieiku/abridge/master/theme.toml>" key="min_version" type="toml") }} or later of [Zola](https://www.getzola.org/documentation/getting-started/installation/)
 
 ```bash
 git clone https://github.com/jieiku/abridge.git
@@ -325,9 +325,9 @@ All that is necessary is `zola build && npm run abridge`.
 
 In addition to elasticlunr abridge also supports pagefind and tinysearch.
 
-pagefind demo: https://abridge-pagefind.pages.dev/
+pagefind demo: <https://abridge-pagefind.pages.dev/>
 
-tinysearch demo: https://abridge-tinysearch.pages.dev/
+tinysearch demo: <https://abridge-tinysearch.pages.dev/>
 
 To use tinysearch extra steps are required.
 

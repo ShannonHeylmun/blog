@@ -1,7 +1,7 @@
 +++
 date = 2021-05-15T15:00:00Z
 description = "A brief description of custom Shortcodes for Zola that implement modern html elements: video, image, gif, audio."
-draft = false
+draft = true
 title = "Rich Content"
 
 [extra]

@@ -1,6 +1,6 @@
 +++
 description = "To reach us please use the contact form on this page."
-draft = false
+draft = true
 path = "contact"
 template = "pages.html"
 title = "Contact"

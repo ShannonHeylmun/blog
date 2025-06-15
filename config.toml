@@ -44,48 +44,48 @@ external_links_no_follow = false   # rel="nofollow"
 external_links_no_referrer = false # rel="noreferrer"
 smart_punctuation = false          # `...` to `…`, `"quote"` to `“curly”` etc
 
-# Any Extra language you do not use, delete or comment out the extra language sections:
-[languages.fr]
-title = "Abridge"
-description = "Abridge est un thème Zola rapide et léger utilisant le html sémantique, le CSS abridge.css class-light et aucun JS obligatoire."
-generate_feeds = true
-build_search_index = true
-search.include_title = true # include title of page/section in index
-search.include_description = true # include description of page/section in index
-search.include_content = true # include rendered content of page/section in index
-# search.truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
-taxonomies = [
-#    {name = "categories", feed = true},
-    {name = "tags", feed = true},
-]
+	# # Any Extra language you do not use, delete or comment out the extra language sections:
+	# [languages.fr]
+	# title = "Abridge"
+	# description = "Abridge est un thème Zola rapide et léger utilisant le html sémantique, le CSS abridge.css class-light et aucun JS obligatoire."
+	# generate_feeds = true
+	# build_search_index = true
+	# search.include_title = true # include title of page/section in index
+	# search.include_description = true # include description of page/section in index
+	# search.include_content = true # include rendered content of page/section in index
+	# # search.truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
+	# taxonomies = [
+	# #    {name = "categories", feed = true},
+	#     {name = "tags", feed = true},
+	# ]
 
-[languages.es]
-title = "Abridge"
-description = "Abridge es un tema de Zola rápido y liviano que utiliza HTML semántico, CSS ligero de clase abridge.css y JS no obligatorio."
-generate_feeds = true
-build_search_index = true
-search.include_title = true # include title of page/section in index
-search.include_description = true # include description of page/section in index
-search.include_content = true # include rendered content of page/section in index
-# search.truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
-taxonomies = [
-#    {name = "categories", feed = true},
-    {name = "tags", feed = true},
-]
+	# [languages.es]
+	# title = "Abridge"
+	# description = "Abridge es un tema de Zola rápido y liviano que utiliza HTML semántico, CSS ligero de clase abridge.css y JS no obligatorio."
+	# generate_feeds = true
+	# build_search_index = true
+	# search.include_title = true # include title of page/section in index
+	# search.include_description = true # include description of page/section in index
+	# search.include_content = true # include rendered content of page/section in index
+	# # search.truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
+	# taxonomies = [
+	# #    {name = "categories", feed = true},
+	#     {name = "tags", feed = true},
+	# ]
 
-[languages.pt]
-title = "Abridge"
-description = "Abridge é um tema rápido e leve que usa HTML semântico, CSS de clase leve abridge.css y JS não obrigatório."
-generate_feeds = true
-build_search_index = true
-search.include_title = true # include title of page/section in index
-search.include_description = true # include description of page/section in index
-search.include_content = true # include rendered content of page/section in index
-# search.truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
-taxonomies = [
-#    {name = "categories", feed = true},
-    {name = "tags", feed = true},
-]
+	# [languages.pt]
+	# title = "Abridge"
+	# description = "Abridge é um tema rápido e leve que usa HTML semântico, CSS de clase leve abridge.css y JS não obrigatório."
+	# generate_feeds = true
+	# build_search_index = true
+	# search.include_title = true # include title of page/section in index
+	# search.include_description = true # include description of page/section in index
+	# search.include_content = true # include rendered content of page/section in index
+	# # search.truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
+	# taxonomies = [
+	# #    {name = "categories", feed = true},
+	#     {name = "tags", feed = true},
+	# ]
 
 [extra]
 ###############################################################################
@@ -152,7 +152,7 @@ foothr = false # show or hide horizontal rule above footer
 
 title_separator = "|"  # Separator between title and title_addition, set as |, -, _, etc
 title_addition = "Fast, Lightweight, and Modern Zola Theme" # a default value for title addition (for SEO aim for 50-70 characters including the title and separator 'Abridge | title_addition')
-author = "Jake G" # Put Your Name here
+author = "Shannon Heylmun" # Put Your Name here
 keywords = "Abridge, Abridge.css, Zola, Theme, Zola Theme, getzola, Semantic Html, Fast, lightweight" # used for the primary site index
 banner = "banner.png" # Used as default image for OpenGraph/Twitter if page specific image is undefined.
 twitter_meta = "your-user-name" # for SEO: twitter:site and twitter:creator
