@@ -29,7 +29,7 @@ I think I remember her helping steady me as I hopped around looking daft to ever
 
 I am a hobbyist scientist at best, some college physics and biology, but I'm no [Dr. of macheticine](https://en.wikipedia.org/wiki/Robert_Evans_(journalist)), so here's someone more qualified to explain the chemistry and physiology:
 
-{{ youtube(id="s68UepBP3PU " class="") }}
+{{ youtube(id="s68UepBP3PU " ) }}
 
 ## Diagnosis?
 
